@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (min-width: 768px){
+    body{
+        background-color: #1d4094;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .middle{
+        text-align: center;
+    }
+    .middle-form{
+        width: 500px;
+    }
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #002c5c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-form{
+    padding: 20px;
+    background: white;
+    margin: 10px auto;
+    
+    
+    box-sizing: border-box;
+}
+
+.footer{
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    background-color: #f1f1f1;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333 !important;
+    padding: 16px;
+}
+
+.footer p{
+    color: #333 !important;
+}
+
+.footer a{
+    text-decoration: underline;
+    color: #333 !important;
+    margin-right: 4px;
+}
+
+.footer-link-line{
+    color: #333;
+}
+
+.footer-img{
+    height: 40px;
+    width: 100px;
+    margin: 8px auto;
+    display:flex; justify-content: center; align-content: center;
+}
+
+.flex{
+    display: flex;
+    background-color: white;
+    padding: 30px;
+}
+
+.flex-item{
+    width: 50%;
+}
+
+
+.submitForm{
+    width: 100%;
+    margin: 10px auto;
+}
+
+.input-field input{
+    display: block;
+    width: 95%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border: thin solid grey;
+    font-size: 16px;
+    padding: 8px;
+    margin: 10px auto 20px auto;
+}
+
+.input-field select{
+    display: block;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border: thin solid grey;
+    font-size: 16px;
+    padding: 8px;
+    margin: 10px auto 20px auto;
+}
+
+.checkboxWrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.submitForm button{
+    background-color: #00457c;
+    border: 2px solid #00457c;
+    min-width: 176px;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.neutral-link{
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: -15px;
+    border: 2px solid black;
+    text-decoration: none;
+}
+
+.checkbox input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width: 768px){
+    .middle-form{
+        width: 98%;
+    }
+    .submitForm{
+        width: 99%;
+    }
+    .submitForm button{
+        width: 98%;
+        
+    }
+    .middle{
+        text-align: left;
+    }
+    .flex{
+        flex-wrap: wrap;
+    }
+    .flex-item{
+        width: 100%;
+    }
+}
+
+.error-message{
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box;
+    background-color: #ffd5d7;
+    border-left: 3px solid red;
+    text-align: center;
+    font-size: 15px;
+}
+
+.hide{
+    display: none;
+}
